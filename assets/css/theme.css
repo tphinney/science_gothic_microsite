@@ -1,0 +1,224 @@
+@font-face {
+  font-family: ScienceGothic;
+  src: url(/assets/fonts/ScienceGothicVF.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+:root {
+  --margin: 1rem;
+  --full_width: calc(100vw - 2 * var(--margin));
+  --green: #01D64B;
+}
+
+body {
+  font-family: ScienceGothic;
+  width: 400vw;
+  height: 100vw;
+  overflow-y: hidden;
+  background-image: linear-gradient(to bottom right, #01FFE4, #080A85);
+  -webkit-background-size: 400vw 100vh;
+  background-size: 400vw 100vh;
+}
+
+.static {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: url(/images/green_static.gif);
+  background-repeat: repeat;
+  background-size: 400px;
+  mix-blend-mode: multiply;
+}
+
+nav {
+  width: var(--full_width);
+  height: calc(100vh / 8 - var(--margin) * 2);
+  position: fixed;
+  top: var(--margin);
+  left: var(--margin);
+  font-size: calc((100vh / 8 - var(--margin) * 2) * 1.2);
+}
+
+.content_container {
+  padding-top: calc(100vh / 8 - var(--margin));
+  height: calc(100vh / 8 * 7 - var(--margin) * 2);
+}
+
+.section {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  margin: var(--margin);
+  width: var(--full_width);
+  font-size: 0;
+  vertical-align: top;
+}
+
+.grid_container {
+  width: 100%;
+  height: calc(100vh / 8 * 7 - var(--margin) * 2);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-gap: var(--margin);
+}
+
+.grid_container div {
+  background: black;
+  color: white;
+  padding: var(--margin);
+}
+
+p {
+  font-size: 16px;
+}
+
+
+/* INTRO */
+
+#intro {
+}
+
+.intro_item {
+  background: black;
+  color: var(--green);
+  padding: var(--margin);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro_item p {
+
+}
+
+#numerals {
+  grid-column: 1 / 3;
+  grid-row: 1 / 4;
+}
+
+/* TYPE TESTER */
+
+#type_tester {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1rem;
+}
+
+#sliders {
+  grid-column: 1 / 4;
+  grid-row: 1 / 5;
+  font-family: ScienceGothic;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+}
+
+#sliders ul {
+  text-align: justify;
+}
+
+#sliders ul li {
+  display: inline-block;
+  margin-bottom: var(--margin);
+}
+
+#sliders ul span {
+  float: right;
+}
+
+#sliders input {
+  display: block;
+  width: 100%;
+  margin-bottom: calc(2 * var(--margin));
+  -webkit-appearance: none;
+  height: 1px;
+  background: white;
+  outline: none;
+}
+
+#sliders input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: var(--green);
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#sliders input::-webkit-slider-thumb:hover {
+  background: white;
+  transition: background 0.3s;
+}
+
+#sliders input::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: var(--green);
+  cursor: pointer;
+}
+
+#css {
+  grid-column: 1 / 4;
+  grid-row: 5 / 8;
+}
+
+#css p {
+  font-family: ScienceGothic;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+}
+
+#css .css_code {
+  padding: 0;
+  margin-top: var(--margin);
+}
+
+#css .css_code p {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.9rem;
+  letter-spacing: 0;
+  margin-bottom: calc(var(--margin) / 2);
+}
+
+#text_input {
+  grid-column: 4 / 13;
+  grid-row: 1 / 8;
+}
+
+#text_input .fas {
+  color: var(--green);
+  transition: color 0.3s;
+  margin-right: 0.5em;
+}
+
+#text_input .fas:hover {
+  color: white;
+  transition: color 0.3s;
+}
+
+#text_input .fa-align-left {
+  color: white;
+}
+
+#text_input textarea {
+  padding-top: calc(2 * var(--margin));
+  width: 100%;
+  height: calc(100% - var(--margin));
+  font-family: ScienceGothic;
+  color: white;
+  background: none;
+  border: none;
+  font-size: 60px;
+  line-height: 1.15;
+  white-space: normal;
+}
