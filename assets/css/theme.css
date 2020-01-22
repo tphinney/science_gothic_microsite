@@ -34,7 +34,7 @@ body {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: url(../images/green_static.gif);
+  background: url(../../images/green_static.gif);
   background-repeat: repeat;
   background-size: 400px;
   mix-blend-mode: multiply;
