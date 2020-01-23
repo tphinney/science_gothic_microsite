@@ -405,13 +405,13 @@ p {
 }
 
 #elements #elements_1 {
-  font-variation-settings: 'wght' 800, 'slnt' -10;
+  font-variation-settings: 'wght' 800, 'wdth' 100, 'slnt' -10;
   transition: font-variation-settings 0.5s;
 }
 
 #elements:hover #elements_1 {
-  font-variation-settings: 'wght' 200, 'slnt' 0;
-  transition: font-variation-settings 1s;
+  font-variation-settings: 'wght' 200, 'wdth' 120, 'slnt' 0;
+  transition: font-variation-settings 0.8s;
 }
 
 #elements #elements_2 {
@@ -421,27 +421,27 @@ p {
 
 #elements:hover #elements_2 {
   font-variation-settings: 'wght' 300, 'slnt' 0;
-  transition: font-variation-settings 1s 0.25s;
+  transition: font-variation-settings 0.8s 0.25s;
 }
 
 #elements #elements_3 {
-  font-variation-settings: 'wght' 300, 'slnt' -10;
+  font-variation-settings: 'wght' 300, 'wdth' 100, 'slnt' -10;
   transition: font-variation-settings 0.5s;
 }
 
 #elements:hover #elements_3 {
-  font-variation-settings: 'wght' 550, 'slnt' 0;
-  transition: font-variation-settings 1s 0.5s;
+  font-variation-settings: 'wght' 550, 'wdth' 90, 'slnt' 0;
+  transition: font-variation-settings 0.8s 0.5s;
 }
 
 #elements #elements_4 {
-  font-variation-settings: 'wght' 200, 'slnt' -10;
+  font-variation-settings: 'wght' 200, 'wdth' 100, 'slnt' -10;
   transition: font-variation-settings 0.5s;
 }
 
 #elements:hover #elements_4 {
-  font-variation-settings: 'wght' 800, 'slnt' 0;
-  transition: font-variation-settings 1s 0.75s;
+  font-variation-settings: 'wght' 800, 'wdth' 75, 'slnt' 0;
+  transition: font-variation-settings 0.8s 0.75s;
 }
 
 
