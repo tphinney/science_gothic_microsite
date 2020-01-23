@@ -1,5 +1,5 @@
 <div id="sliders">
-  <ul>
+  <ul class="SG_smallcaps">
     <li>SIZE</li> <span class="slider_size_val">60px</span>
       <input id="slider_size" type="range" min="12" max="200" value="60" step="1">
     <li>LINE HEIGHT</li> <span class="slider_lineheight_val">1.15x</span>
@@ -16,15 +16,15 @@
 </div>
 
 <div id="css">
-  <p>CSS</p>
+  <p class="SG_smallcaps">CSS</p>
   <div class="css_code">
     <p>font-size: <span class="slider_size_val">60px</span>;<br>
     line-height: <span class="slider_lineheight_val">1.15</span>;<br>
     font-variation-settings:<br>
-    &emsp;‘wght’ <span class="slider_weight_val">400</span>,<br>
-    &emsp;‘wdth’ <span class="slider_width_val">122</span>,<br>
-    &emsp;‘YOPQ’ <span class="slider_contrast_val">0</span>, /* contrast */<br>
-    &emsp;‘slnt’ <span id="slider_slant_val">0</span>; </p>
+    &emsp;‘wght’ <span class="slider_weight_val">400</span>, <span class="css_comment">/* weight */</span><br>
+    &emsp;‘wdth’ <span class="slider_width_val">122</span>, <span class="css_comment">/* width */</span><br>
+    &emsp;‘YOPQ’ <span class="slider_contrast_val">0</span>, <span class="css_comment">/* contrast */</span><br>
+    &emsp;‘slnt’ <span class="slider_slant_val">0</span>; <span class="css_comment">/* slant */</span></p>
   </div>
 </div>
 

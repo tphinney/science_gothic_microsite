@@ -10,8 +10,19 @@ layout: default
 <nav>
   <ul>
     <li id="home">Science Gothic</li>
+    <li id="menu_button" class="SG_smallcaps">Menu</li>
+    <li id="download" class="SG_smallcaps">Download</li>
   </ul>
 </nav>
+
+<div id="menu">
+  <ul>
+    <li id="home">Science Gothic</li>
+    <li id="type tester">Type Tester</li>
+    <li id="about">About</li>
+    <li id="colophon">Colophon</li>
+  </ul>
+</div>
 
 <div class="content_container">
 
