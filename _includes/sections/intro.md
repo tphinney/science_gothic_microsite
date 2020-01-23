@@ -10,6 +10,28 @@
   <p id="nine">9</p>
 </div>
 
+<div class="intro_item" id="currency">
+  <p>$</p>
+  <p>£</p>
+  <p>¤</p>
+  <p>¥</p>
+</div>
+
+<div class="intro_item" id="ampersand">
+  <p>&</p>
+</div>
+
+<div class="intro_item" id="icelandic">
+  <p class="size-to-width">efnafræði</p>
+</div>
+
 <div class="intro_item" id="cyrillic">
   <p class="size-to-width">эксперимент</p>
+</div>
+
+<div class="intro_item" id="elements">
+  <p id="elements_1" class="size-to-width">zirconium</p>
+  <p id="elements_2" class="size-to-width">plutonium</p>
+  <p id="elements_3" class="size-to-width">neodymium</p>
+  <p id="elements_4" class="size-to-width">technetium</p>
 </div>

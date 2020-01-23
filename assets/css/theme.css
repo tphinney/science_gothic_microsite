@@ -188,7 +188,7 @@ p {
 }
 
 #numerals:hover #one {
-  animation: one 4.5s linear infinite;
+  animation: one 6s linear infinite;
 }
 
 @keyframes two {
@@ -205,7 +205,7 @@ p {
 }
 
 #numerals:hover #two {
-  animation: two 4.5s linear infinite;
+  animation: two 6s linear infinite;
 }
 
 @keyframes three {
@@ -222,7 +222,7 @@ p {
 }
 
 #numerals:hover #three {
-  animation: three 4.5s linear infinite;
+  animation: three 6s linear infinite;
 }
 
 @keyframes four {
@@ -239,7 +239,7 @@ p {
 }
 
 #numerals:hover #four {
-  animation: four 4.5s linear infinite;
+  animation: four 6s linear infinite;
 }
 
 @keyframes five {
@@ -256,7 +256,7 @@ p {
 }
 
 #numerals:hover #five {
-  animation: five 4.5s linear infinite;
+  animation: five 6s linear infinite;
 }
 
 @keyframes six {
@@ -273,7 +273,7 @@ p {
 }
 
 #numerals:hover #six {
-  animation: six 4.5s linear infinite;
+  animation: six 6s linear infinite;
 }
 
 @keyframes seven {
@@ -290,7 +290,7 @@ p {
 }
 
 #numerals:hover #seven {
-  animation: seven 4.5s linear infinite;
+  animation: seven 6s linear infinite;
 }
 
 @keyframes eight {
@@ -307,7 +307,7 @@ p {
 }
 
 #numerals:hover #eight {
-  animation: eight 4.5s linear infinite;
+  animation: eight 6s linear infinite;
 }
 
 @keyframes nine {
@@ -323,7 +323,57 @@ p {
 }
 
 #numerals:hover #nine {
-  animation: nine 4.5s linear infinite;
+  animation: nine 6s linear infinite;
+}
+
+#currency {
+  grid-column: 1;
+  grid-row: 4 / 7;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+#currency p {
+  display: block;
+  font-size: calc(var(--font_ratio) * 0.5);
+  font-variation-settings: 'wdth' 175, 'wght' 300;
+  transition: font-variation-settings 0.5s;
+}
+
+#ampersand {
+  grid-column: 2 / 5;
+  grid-row: 4 / 7;
+}
+
+#ampersand p {
+  position: relative;
+  top: 10%;
+  font-size: calc(var(--font_ratio) * 3);
+  font-variation-settings: 'wdth' 200, 'wght' 300;
+  transition: font-variation-settings 0.5s;
+}
+
+#ampersand:hover p {
+  font-variation-settings: 'wdth' 50, 'wght' 50;
+  transition: font-variation-settings 1s;
+}
+
+#icelandic {
+  grid-column: 1 / 4;
+  grid-row: 7 / 9;
+}
+
+#icelandic p {
+  position: relative;
+  top: 5%;
+  font-variation-settings: 'wdth' 60, 'wght' 100, 'slnt' 0;
+  transition: font-variation-settings 0.5s;
+}
+
+#icelandic:hover p {
+  font-variation-settings: 'wdth' 60, 'wght' 100, 'slnt' -10;
+  transition: font-variation-settings 1s;
 }
 
 #cyrillic {
@@ -333,14 +383,67 @@ p {
 
 #cyrillic p {
   font-variation-settings: 'YOPQ' 18, 'slnt' 0;
-  transition: all 1s;
+  transition: font-variation-settings 0.6s;
 }
 
 #cyrillic:hover p {
   font-variation-settings: 'YOPQ' 122, 'slnt' -10;
-  transition: all 1s;
-
+  transition: font-variation-settings 1s;
 }
+
+#elements {
+  grid-column: 3 / 5;
+  grid-row: 2 / 4;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+#elements p {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#elements #elements_1 {
+  font-variation-settings: 'wght' 800, 'slnt' -10;
+  transition: font-variation-settings 0.5s;
+}
+
+#elements:hover #elements_1 {
+  font-variation-settings: 'wght' 200, 'slnt' 0;
+  transition: font-variation-settings 1s;
+}
+
+#elements #elements_2 {
+  font-variation-settings: 'wght' 550, 'slnt' -10;
+  transition: font-variation-settings 0.5s;
+}
+
+#elements:hover #elements_2 {
+  font-variation-settings: 'wght' 300, 'slnt' 0;
+  transition: font-variation-settings 1s 0.25s;
+}
+
+#elements #elements_3 {
+  font-variation-settings: 'wght' 300, 'slnt' -10;
+  transition: font-variation-settings 0.5s;
+}
+
+#elements:hover #elements_3 {
+  font-variation-settings: 'wght' 550, 'slnt' 0;
+  transition: font-variation-settings 1s 0.5s;
+}
+
+#elements #elements_4 {
+  font-variation-settings: 'wght' 200, 'slnt' -10;
+  transition: font-variation-settings 0.5s;
+}
+
+#elements:hover #elements_4 {
+  font-variation-settings: 'wght' 800, 'slnt' 0;
+  transition: font-variation-settings 1s 0.75s;
+}
+
 
 /* TYPE TESTER */
 
