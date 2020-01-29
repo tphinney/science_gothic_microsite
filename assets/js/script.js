@@ -1,10 +1,49 @@
 $(document).ready(function() {
 
-// horizontal scroll
-  $("html, body").mousewheel(function(event, delta) {
-      this.scrollLeft -= (delta);
-      event.preventDefault();
-  });
+  var page_height = $(document).height();
+  $('body').css('height', page_height);
+
+  setTimeout(function() {
+      var title_size = $('#science').css('font-size');
+      console.log(title_size);
+      $('#gothic').css('font-size', title_size);
+    }, 500);
+
+// fraction cycle
+  var delta = 750;
+  $('#fraction').hover(
+  function() {
+    setTimeout(function() {
+      $('#fraction p').text('¼');
+    }, delta * 1);
+    setTimeout(function() {
+      $('#fraction p').text('⅓');
+    }, delta * 2);
+    setTimeout(function() {
+      $('#fraction p').text('⅜');
+    }, delta * 3);
+    setTimeout(function() {
+      $('#fraction p').text('½');
+    }, delta * 4);
+    setTimeout(function() {
+      $('#fraction p').text('⅝');
+    }, delta * 5);
+    setTimeout(function() {
+      $('#fraction p').text('⅔');
+    }, delta * 6);
+    setTimeout(function() {
+      $('#fraction p').text('¾');
+    }, delta * 7);
+    setTimeout(function() {
+      $('#fraction p').text('⅞');
+    }, delta * 8);
+    setTimeout(function() {
+      $('#fraction p').text('1');
+    }, delta * 9);
+  }, function() {
+    $('#fraction p').text('⅛');
+  }
+);
 
 // sliders
   $('#slider_size').on('input',function(){

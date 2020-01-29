@@ -97,7 +97,7 @@ function initSizeToWidth() {
 	.on('blur.sizeToWidth', update)
 	.on('keyup.sizeToWidth', function() {
 		stwKeyupTimeout && clearTimeout(stwKeyupTimeout);
-		stwKeyupTimeout = setTimeout(update, 1000);
+		stwKeyupTimeout = setTimeout(update);
 	});
 
 	$(update);

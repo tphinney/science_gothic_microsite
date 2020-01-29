@@ -1,3 +1,8 @@
+<div class="intro_item" id="title">
+  <p id="science" class="size-to-width">Science</p>
+  <p id="gothic">Gothic</p>
+</div>
+
 <div class="intro_item" id="numerals">
   <p id="one">1</p>
   <p id="two">2</p>
@@ -10,15 +15,61 @@
   <p id="nine">9</p>
 </div>
 
+<div class="intro_item" id="fraction">
+  <p>⅛</p>
+</div>
+
+<div class="intro_item" id="ae">
+  <p class="size-to-width">Æ</p>
+</div>
+
+
+<div class="intro_item" id="german">
+  <p class="size-to-width">Außerirdischer</p>
+</div>
+
+<div class="intro_item" id="spanish">
+  <p class="size-to-width">AÑADIDO</p>
+</div>
+
+<div class="intro_item" id="vietnamese">
+  <p class="size-to-width">nghiên cứu thực địa</p>
+</div>
+
 <div class="intro_item" id="currency">
   <p>$</p>
   <p>£</p>
+  <p>€</p>
   <p>¤</p>
   <p>¥</p>
 </div>
 
+<div class="intro_item" id="no">
+  <p class="size-to-width">№</p>
+</div>
+
 <div class="intro_item" id="ampersand">
-  <p>&</p>
+  <p class="size-to-width">&</p>
+</div>
+
+<div class="intro_item" id="at_sign">
+  <p class="size-to-width">@</p>
+</div>
+
+<div class="intro_item" id="exclamation">
+  <p>!</p>
+</div>
+
+<div class="intro_item" id="arrow">
+  <a href="#type_tester">↓</a>
+</div>
+
+<div class="intro_item" id="belarusian">
+  <p class="size-to-width">дзюба</p>
+</div>
+
+<div class="intro_item" id="danish">
+  <p class="size-to-width">BLÅGRØNALGE</p>
 </div>
 
 <div class="intro_item" id="icelandic">
@@ -27,6 +78,10 @@
 
 <div class="intro_item" id="cyrillic">
   <p class="size-to-width">эксперимент</p>
+</div>
+
+<div class="intro_item" id="cyrillic_zhe">
+  <p class="size-to-width">Ӂ</p>
 </div>
 
 <div class="intro_item" id="elements">
