@@ -10,7 +10,7 @@
 
 $('head').append('<style> .size-to-width { white-space: nowrap; } </style>');
 
-window.FontFaceObserver || $('head').append("<script src='http://chrislewis.codes/js/fontfaceobserver.js'></script>");
+window.FontFaceObserver || $('head').append("<script src='assets/js/fontfaceobserver.js'></script>");
 
 window.sizeToWidth = function(el) {
 	var div;
