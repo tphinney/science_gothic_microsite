@@ -37,11 +37,11 @@
 </div>
 
 <div class="intro_item" id="currency">
-  <p>$</p>
-  <p>£</p>
-  <p>€</p>
-  <p>¤</p>
-  <p>¥</p>
+  <p id="dollar">$</p>
+  <p id="pound">£</p>
+  <p id="euro">€</p>
+  <p id="ruble">₽</p>
+  <p id="yen">¥</p>
 </div>
 
 <div class="intro_item" id="no">
@@ -73,7 +73,7 @@
 </div>
 
 <div class="intro_item" id="icelandic">
-  <p class="size-to-width">efnafræði</p>
+  <p class="size-to-width">Efnafræði</p>
 </div>
 
 <div class="intro_item" id="cyrillic">
@@ -82,6 +82,10 @@
 
 <div class="intro_item" id="cyrillic_zhe">
   <p class="size-to-width">Ӂ</p>
+</div>
+
+<div class="intro_item" id="turkish">
+  <p class="size-to-width">çıpa</p>
 </div>
 
 <div class="intro_item" id="elements">
