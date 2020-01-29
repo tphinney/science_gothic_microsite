@@ -130,13 +130,11 @@ p {
 }
 
 .intro_item p {
-  display: block;
   width: 100%;
   text-align: center;
   color: var(--green);
   transition: color 0.5s;
   line-height: 0.8;
-  animation: fade_in 5s ease-in;
 }
 
 .intro_item:hover p {
@@ -174,7 +172,7 @@ p {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
   padding: calc(var(--margin) * 2);
-  animation: scale_in 0.5s;
+  animation: scale_in 3s;
 }
 
 #title p {

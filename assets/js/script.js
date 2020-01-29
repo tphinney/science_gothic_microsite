@@ -5,9 +5,14 @@ $(document).ready(function() {
 
   setTimeout(function() {
       var title_size = $('#science').css('font-size');
-      console.log(title_size);
       $('#gothic').css('font-size', title_size);
-    }, 500);
+    }, 100);
+
+  setTimeout(function() {
+      $('#title').css('animation', 'title_cycle 10s ease-out');
+    }, 3000);
+
+
 
 // fraction cycle
   var delta = 750;
