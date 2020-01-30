@@ -172,6 +172,8 @@ p {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
   padding: calc(var(--margin) * 2);
+  background: none;
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.1), rgba(1, 45, 73, 0.5));
   animation: scale_in 3s;
 }
 
@@ -822,6 +824,8 @@ p {
 #text_input {
   grid-column: 4 / 13;
   grid-row: 1 / 10;
+  background: none;
+  background-image: linear-gradient(to bottom right, rgba(1, 45, 73, 0.75), rgba(1, 214, 75, 0.1), rgba(0, 0, 0, 0.6));
 }
 
 #text_input .fas {
@@ -861,7 +865,8 @@ p {
   text-align: center;
   background: none;
   background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.75));
-  background-size: cover;
+  position: relative;
+  z-index: -1;
 }
 
 #featured_glyph p {
@@ -897,6 +902,10 @@ p {
   border: 0.5px solid var(--green);
 }
 
+#glyphs .glyph_tab#etc_chars {
+  width: calc(100% / 30 * 20);
+}
+
 #glyphs .glyph_tab p {
   position: relative;
   top: 7.5%;
@@ -919,7 +928,7 @@ p {
   font-variation-settings: 'wght' 350;
 }
 
-#glyphs #cyrillic_table {
+#glyphs #cyrillic_table, #glyphs #etc_table {
   display: none;
 }
 

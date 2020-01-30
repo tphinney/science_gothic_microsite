@@ -124,15 +124,22 @@ $(document).ready(function() {
   $(".glyph_tab#cyrillic").click(function(){
     $(".glyph_tab p").css('color', 'var(--green)');
     $(".glyph_tab#cyrillic p").css('color', 'white');
-    $('#glyphs #latin_table').css('display', 'none');
+    $('#glyphs #latin_table, #glyphs #etc_table').css('display', 'none');
     $('#glyphs #cyrillic_table').css('display', 'block');
   });
 
   $(".glyph_tab#latin").click(function(){
     $(".glyph_tab p").css('color', 'var(--green)');
     $(".glyph_tab#latin p").css('color', 'white');
-    $('#glyphs #cyrillic_table').css('display', 'none');
+    $('#glyphs #cyrillic_table, #glyphs #etc_table').css('display', 'none');
     $('#glyphs #latin_table').css('display', 'block');
+  });
+
+  $(".glyph_tab#etc_chars").click(function(){
+    $(".glyph_tab p").css('color', 'var(--green)');
+    $(".glyph_tab#etc_chars p").css('color', 'white');
+    $('#glyphs #cyrillic_table, #glyphs #latin_table').css('display', 'none');
+    $('#glyphs #etc_table').css('display', 'block');
   });
 
 });
