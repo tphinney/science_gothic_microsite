@@ -545,18 +545,18 @@ p {
   transition: font-variation-settings 0.75s;
 }
 
-#cyrillic {
+#russian {
   grid-column: 9 / 12;
   grid-row: 1;
   animation: scale_in 6s;
 }
 
-#cyrillic p {
+#russian p {
   font-variation-settings: 'YOPQ' 122, 'slnt' -10;
   transition: font-variation-settings 0.6s;
 }
 
-#cyrillic:hover p {
+#russian:hover p {
   font-variation-settings: 'YOPQ' 18, 'slnt' 0;
   transition: font-variation-settings 1s;
 }
@@ -889,14 +889,19 @@ p {
   height: calc(var(--margin) * 2);
   padding: calc((var(--margin) * 2 - 0.8rem) / 2);
   border-right: 1px solid var(--green);
+  cursor: pointer;
 }
 
 #glyphs .glyph_tab p {
   position: relative;
   top: 7.5%;
   background-color: none;
-  color: white;
+  color: var(--green);
   font-size: 0.8rem;
+}
+
+.glyph_tab#latin p {
+  color: white;
 }
 
 #glyphs .glyph_table div {
@@ -907,6 +912,10 @@ p {
   text-align: center;
   border: 0.5px solid var(--green);
   font-variation-settings: 'wght' 350;
+}
+
+#glyphs #cyrillic_table {
+  display: none;
 }
 
 #languages {

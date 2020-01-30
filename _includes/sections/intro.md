@@ -76,7 +76,7 @@
   <p class="size-to-width">Efnafræði</p>
 </div>
 
-<div class="intro_item" id="cyrillic">
+<div class="intro_item" id="russian">
   <p class="size-to-width">эксперимент</p>
 </div>
 

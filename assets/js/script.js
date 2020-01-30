@@ -121,4 +121,18 @@ $(document).ready(function() {
     $(this).css('background', 'none');
   });
 
+  $(".glyph_tab#cyrillic").click(function(){
+    $(".glyph_tab p").css('color', 'var(--green)');
+    $(".glyph_tab#cyrillic p").css('color', 'white');
+    $('#glyphs #latin_table').css('display', 'none');
+    $('#glyphs #cyrillic_table').css('display', 'block');
+  });
+
+  $(".glyph_tab#latin").click(function(){
+    $(".glyph_tab p").css('color', 'var(--green)');
+    $(".glyph_tab#latin p").css('color', 'white');
+    $('#glyphs #cyrillic_table').css('display', 'none');
+    $('#glyphs #latin_table').css('display', 'block');
+  });
+
 });
