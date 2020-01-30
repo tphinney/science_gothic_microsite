@@ -116,7 +116,7 @@ $(document).ready(function() {
   $("#glyphs .glyph_table div").hover(function(){
     var current_glyph = $(this).text();
     $("#featured_glyph p").text(current_glyph);
-    $(this).css('background', 'var(--gray)');
+    $(this).css('background', 'rgba(0,0,0,0.8)');
   }, function() {
     $(this).css('background', 'none');
   });

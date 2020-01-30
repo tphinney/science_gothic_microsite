@@ -859,6 +859,9 @@ p {
   grid-column: 1 / 5;
   grid-row: 1 / 6;
   text-align: center;
+  background: none;
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.75));
+  background-size: cover;
 }
 
 #featured_glyph p {
@@ -870,11 +873,13 @@ p {
   grid-column: 5 / 13;
   grid-row: 1 / 6;
   padding: 0;
+  background: none;
 }
 
 #glyphs div {
   background: none;
   padding: 0;
+  vertical-align: top;
 }
 
 #glyphs #glyph_tab_bar {
@@ -885,11 +890,11 @@ p {
 
 #glyphs .glyph_tab {
   display: inline-block;
-  width: 20%;
+  width: calc(100% / 30 * 5);
   height: calc(var(--margin) * 2);
   padding: calc((var(--margin) * 2 - 0.8rem) / 2);
-  border-right: 1px solid var(--green);
   cursor: pointer;
+  border: 0.5px solid var(--green);
 }
 
 #glyphs .glyph_tab p {
