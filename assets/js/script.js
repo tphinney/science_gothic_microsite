@@ -3,6 +3,18 @@ $(document).ready(function() {
   var page_height = $(document).height();
   $('body').css('height', page_height);
 
+  var glyph_table_entry_width = $("#glyphs .glyph_table div").width();
+  $("#glyphs .glyph_table div").css({
+    'height': glyph_table_entry_width,
+    'line-height': glyph_table_entry_width + 'px'
+  });
+
+  var featured_glyph_width = $("#featured_glyph").width();
+  $("#featured_glyph p").css({
+    'font-size': featured_glyph_width * 0.7 + 'px',
+    'line-height': featured_glyph_width + 'px'
+  });
+
   setTimeout(function() {
       var title_size = $('#science').css('font-size');
       $('#gothic').css('font-size', title_size);
@@ -11,8 +23,6 @@ $(document).ready(function() {
   setTimeout(function() {
       $('#title').css('animation', 'title_cycle 10s ease-out');
     }, 3000);
-
-
 
 // fraction cycle
   var delta = 750;
@@ -100,6 +110,15 @@ $(document).ready(function() {
     else {
       $('#text_input textarea').css('text-align', 'right');
     }
+  });
+
+// glyph table
+  $("#glyphs .glyph_table div").hover(function(){
+    var current_glyph = $(this).text();
+    $("#featured_glyph p").text(current_glyph);
+    $(this).css('background', 'var(--gray)');
+  }, function() {
+    $(this).css('background', 'none');
   });
 
 });

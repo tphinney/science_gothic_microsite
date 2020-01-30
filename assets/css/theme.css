@@ -858,11 +858,55 @@ p {
 #featured_glyph {
   grid-column: 1 / 5;
   grid-row: 1 / 6;
+  text-align: center;
 }
 
-#glyph_table {
+#featured_glyph p {
+  position: relative;
+  top: 7.5%;
+}
+
+#glyphs {
   grid-column: 5 / 13;
   grid-row: 1 / 6;
+  padding: 0;
+}
+
+#glyphs div {
+  background: none;
+  padding: 0;
+}
+
+#glyphs #glyph_tab_bar {
+  width: 100%;
+  height: calc(var(--margin) * 2);
+  border-bottom: 0.5px solid var(--green);
+}
+
+#glyphs .glyph_tab {
+  display: inline-block;
+  width: 20%;
+  height: calc(var(--margin) * 2);
+  padding: calc((var(--margin) * 2 - 0.8rem) / 2);
+  border-right: 1px solid var(--green);
+}
+
+#glyphs .glyph_tab p {
+  position: relative;
+  top: 7.5%;
+  background-color: none;
+  color: white;
+  font-size: 0.8rem;
+}
+
+#glyphs .glyph_table div {
+  display: inline-block;
+  min-width: 1.5rem;
+  width: calc(100% / 30);
+  font-size: 1rem;
+  text-align: center;
+  border: 0.5px solid var(--green);
+  font-variation-settings: 'wght' 350;
 }
 
 #languages {
