@@ -18,7 +18,7 @@ $(document).ready(function() {
   setTimeout(function() {
       var title_size = $('#science').css('font-size');
       $('#gothic').css('font-size', title_size);
-    }, 100);
+    }, 250);
 
   setTimeout(function() {
       $('#title').css('animation', 'title_cycle 10s ease-out');
@@ -97,14 +97,14 @@ $(document).ready(function() {
   });
 
 // type tester text alignment
-  $(".fas").click(function() {
-    $(".fas").css('color', 'var(--green)' );
-    $(this).css('color', 'white' );
-    var className = $(this).attr('class');
-    if (className == 'fas fa-align-left') {
+  $(".align").click(function() {
+    $(".align").css('stroke', 'var(--green)' );
+    $(this).css('stroke', 'white' );
+    var idName = $(this).attr('id');
+    if (idName == 'align_left') {
       $('#text_input textarea').css('text-align', 'left');
     }
-    else if (className == 'fas fa-align-center') {
+    else if (idName == 'align_center') {
       $('#text_input textarea').css('text-align', 'center');
     }
     else {

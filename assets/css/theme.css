@@ -61,23 +61,31 @@ nav {
   height: 50px;
   border-radius: 50px;
   position: fixed;
-  z-index: 2;
+  z-index: 1;
   top: calc(var(--margin) + 5px);
   right: calc(var(--margin) + 5px);
   background-image: linear-gradient(to bottom right, var(--green), #012D49);
   text-align: center;
 }
 
-nav i {
-  font-size: 26px;
+nav #download {
   position: relative;
-  top: 12px;
+  top: 11px;
+  height: 26px;
+  width: auto;
+  fill: black;
+  stroke: black;
+  transition: all 0.5s;
+}
+
+nav #download:hover {
+  fill: white;
+  stroke: white;
+  transition: all 0.5s;
 }
 
 .section {
-  position: relative;
-
-  z-index: 1;
+  isolation: isolate;
   font-size: 0;
   margin-bottom: var(--margin);
   padding: var(--margin);
@@ -100,6 +108,7 @@ nav i {
 
 p {
   font-size: 16px;
+  isolation: isolate;
 }
 
 
@@ -828,20 +837,22 @@ p {
   background-image: linear-gradient(to bottom right, rgba(1, 45, 73, 0.75), rgba(1, 214, 75, 0.1), rgba(0, 0, 0, 0.6));
 }
 
-#text_input .fas {
-  color: var(--green);
-  transition: color 0.3s;
+#text_input .align {
+  stroke: var(--green);
+  transition: stroke 0.3s;
   margin-right: 0.5em;
+  height: 16px;
+  width: auto;
 }
 
-#text_input .fas:hover {
-  color: white;
-  transition: color 0.3s;
+#text_input .align:hover {
+  stroke: white;
+  transition: stroke 0.3s;
   cursor: pointer;
 }
 
-#text_input .fa-align-left {
-  color: white;
+#text_input #align_left {
+  stroke: white;
 }
 
 #text_input textarea {
