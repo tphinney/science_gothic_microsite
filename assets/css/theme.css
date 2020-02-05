@@ -68,7 +68,11 @@ nav {
   text-align: center;
 }
 
-nav #download {
+nav a {
+  cursor: alias;
+}
+
+nav a #download {
   position: relative;
   top: 11px;
   height: 26px;
@@ -78,7 +82,7 @@ nav #download {
   transition: all 0.5s;
 }
 
-nav #download:hover {
+nav a:hover #download {
   fill: white;
   stroke: white;
   transition: all 0.5s;
@@ -750,6 +754,79 @@ p {
   transition: font-variation-settings 0.8s 0.75s;
 }
 
+#intro_about {
+  margin-top: calc(var(--margin) * 3);
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: var(--margin);
+  height: 70vh;
+}
+
+#intro_about #intro_about_text {
+  grid-column: 4 / 10;
+  grid-row: 1 / 3;
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(1, 214, 75, 0.1), rgba(1, 45, 73, 0.75));
+  padding: calc(var(--margin) * 2);
+}
+
+#intro_about #intro_about_text p {
+  max-width: 100%;
+  font-size: 2rem;
+  color: white;
+  line-height: 1.1;
+  margin: 1rem auto;
+  font-variation-settings: 'wght' 350, 'wdth' 95;
+}
+
+#intro_about .demo {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#intro_about .demo p {
+  color: var(--green);
+  font-size: calc(var(--font_ratio) * 2.5);
+  text-align: center;
+  position: relative;
+  top: 7.5%;
+}
+
+#intro_about #demo_weight {
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+
+#intro_about #demo_weight p {
+  font-variation-settings: 'wght' 100;
+}
+
+#intro_about #demo_width {
+  grid-column: 1 / 4;
+  grid-row: 2;
+}
+
+#intro_about #demo_width p {
+  font-variation-settings: 'wdth' 50;
+}
+
+#intro_about #demo_contrast {
+  grid-column: 10 / 13;
+  grid-row: 1;
+}
+
+#intro_about #demo_contrast p {
+  font-variation-settings: 'YOPQ' 18;
+}
+
+#intro_about #demo_slant {
+  grid-column: 10 / 13;
+  grid-row: 2;
+}
+
+#intro_about #demo_slant p {
+  font-variation-settings: 'slnt' -10;
+}
 
 /* TYPE TESTER */
 
@@ -843,16 +920,17 @@ p {
   margin-right: 0.5em;
   height: 16px;
   width: auto;
-}
-
-#text_input .align:hover {
-  stroke: white;
-  transition: stroke 0.3s;
   cursor: pointer;
 }
 
 #text_input #align_left {
   stroke: white;
+  transition: stroke 0.3s;
+}
+
+#text_input .align:hover {
+  stroke: white !important;
+  transition: stroke 0.3s;
 }
 
 #text_input textarea {

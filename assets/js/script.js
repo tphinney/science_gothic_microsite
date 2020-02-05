@@ -1,7 +1,12 @@
 $(document).ready(function() {
 
-  var page_height = $(document).height();
+  var page_height = $(document).height() + 100;
   $('body').css('height', page_height);
+
+  var demo_height = $("#demo_weight").height();
+  $(".demo").css({
+    'line-height': demo_height + 'px'
+  });
 
   var glyph_table_entry_width = $("#glyphs .glyph_table div").width();
   $("#glyphs .glyph_table div").css({
