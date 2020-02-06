@@ -18,9 +18,17 @@ layout: default
       <p>Newly reinvented as a variable font, it is far more versatile than ever before. Thin weights are classy and softer. Weight, width, contrast, and slant are yours to control.</p>
       <p>How will you use it?</p>
     </div>
+    <div class="demo" id="demo_weight_overlay_01"><p>1</p></div>
+    <div class="demo" id="demo_weight_overlay_02"><p>1</p></div>
     <div class="demo" id="demo_weight"><p>1</p></div>
+    <div class="demo" id="demo_width_overlay_01"><p>2</p></div>
+    <div class="demo" id="demo_width_overlay_02"><p>2</p></div>
     <div class="demo" id="demo_width"><p>2</p></div>
+    <div class="demo" id="demo_contrast_overlay_01"><p>3</p></div>
+    <div class="demo" id="demo_contrast_overlay_02"><p>3</p></div>
     <div class="demo" id="demo_contrast"><p>3</p></div>
+    <div class="demo" id="demo_slant_overlay_01"><p>4</p></div>
+    <div class="demo" id="demo_slant_overlay_02"><p>4</p></div>
     <div class="demo" id="demo_slant"><p>4</p></div>
   </div>
 </div>
