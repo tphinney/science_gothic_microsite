@@ -187,7 +187,7 @@ p {
   padding: calc(var(--margin) * 2);
   background: none;
   background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.1), rgba(1, 45, 73, 0.5));
-  animation: scale_in 3s;
+  /*animation: scale_in 3s;*/
 }
 
 #title p {
@@ -207,7 +207,7 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  animation: scale_in 3s;
+  /*animation: scale_in 3s;*/
 }
 
 #numerals p {
@@ -375,7 +375,7 @@ p {
 #fraction {
   grid-column: 10;
   grid-row: 5;
-  animation: scale_in 10s;
+  /*animation: scale_in 10s;*/
 }
 
 #fraction p {
@@ -391,7 +391,7 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, 1fr);
-  animation: scale_in 7s;
+  /*animation: scale_in 7s;*/
 }
 
 #currency p {
@@ -429,7 +429,7 @@ p {
 #no {
   grid-column: 11 / 13;
   grid-row: 5 / 9;
-  animation: scale_in 3s;
+  /*animation: scale_in 3s;*/
 }
 
 #no p {
@@ -451,7 +451,7 @@ p {
 #ampersand {
   grid-column: 1 / 4;
   grid-row: 6 / 9;
-  animation: scale_in 3s;
+  /*animation: scale_in 3s;*/
 }
 
 #ampersand p {
@@ -470,7 +470,7 @@ p {
   grid-column: 10 / 13;
   grid-row: 2 / 5;
   padding: calc(var(--margin) * 1.5);
-  animation: scale_in 3s;
+  /*animation: scale_in 3s;*/
 }
 
 #at_sign p {
@@ -505,7 +505,7 @@ p {
 #arrow {
   grid-column:  12;
   grid-row: 9;
-  animation: scale_in 10s;
+  /*animation: scale_in 10s;*/
 }
 
 #arrow a {
@@ -527,7 +527,7 @@ p {
 #ae {
   grid-column: 11;
   grid-row: 9;
-  animation: scale_in 8.5s;
+  /*animation: scale_in 8.5s;*/
 }
 
 #ae p {
@@ -545,7 +545,7 @@ p {
 #belarusian {
   grid-column: 1 / 4;
   grid-row: 9;
-  animation: scale_in 6s;
+  /*animation: scale_in 6s;*/
 }
 
 #belarusian p {
@@ -563,7 +563,7 @@ p {
 #russian {
   grid-column: 9 / 12;
   grid-row: 1;
-  animation: scale_in 6s;
+  /*animation: scale_in 6s;*/
 }
 
 #russian p {
@@ -579,7 +579,7 @@ p {
 #cyrillic_zhe {
   grid-column: 1 / 3;
   grid-row: 4 / 6;
-  animation: scale_in 8s;
+  /*animation: scale_in 8s;*/
 }
 
 #cyrillic_zhe p {
@@ -597,7 +597,7 @@ p {
 #danish {
   grid-column: 6 / 10;
   grid-row: 8 / 10;
-  animation: scale_in 6s;
+  /*animation: scale_in 6s;*/
 }
 
 #danish p {
@@ -615,7 +615,7 @@ p {
 #german {
   grid-column: 4 / 8;
   grid-row: 7;
-  animation: scale_in 7s;
+  /*animation: scale_in 7s;*/
 }
 
 #german p {
@@ -633,7 +633,7 @@ p {
 #icelandic {
   grid-column: 3 / 6;
   grid-row: 1 / 3;
-  animation: scale_in 5s;
+  /*animation: scale_in 5s;*/
 }
 
 #icelandic p {
@@ -651,7 +651,7 @@ p {
 #spanish {
   grid-column: 6 / 9;
   grid-row: 1;
-  animation: scale_in 10s;
+  /*animation: scale_in 10s;*/
 }
 
 #spanish p {
@@ -669,7 +669,7 @@ p {
 #turkish {
   grid-column: 8 / 10;
   grid-row: 7;
-  animation: scale_in 4s;
+  /*animation: scale_in 4s;*/
 }
 
 #turkish p {
@@ -685,7 +685,7 @@ p {
 #vietnamese {
   grid-column: 6 / 10;
   grid-row: 2;
-  animation: scale_in 4s;
+  /*animation: scale_in 4s;*/
 }
 
 #vietnamese p {
@@ -706,7 +706,7 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
-  animation: scale_in 7s;
+  /*animation: scale_in 7s;*/
 }
 
 #elements p {
