@@ -486,7 +486,7 @@ p {
 #exclamation {
   grid-column:  3;
   grid-row: 3 / 6;
-  animation: scale_in 5s;
+  /*animation: scale_in 5s;*/
 }
 
 #exclamation p {
