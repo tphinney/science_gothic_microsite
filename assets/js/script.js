@@ -1,5 +1,19 @@
 $(document).ready(function() {
 
+  (function()
+    {
+      if( window.localStorage )
+      {
+        if( !localStorage.getItem('firstLoad') )
+        {
+          localStorage['firstLoad'] = true;
+          window.location.reload();
+        }
+        else
+          localStorage.removeItem('firstLoad');
+      }
+    })();
+
   var page_height = $(document).height() + 100;
   $('body').css('height', page_height);
 
