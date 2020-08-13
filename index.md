@@ -44,3 +44,7 @@ layout: default
    {% include sections/glyphs_languages.md %}
  </div>
 </div>
+
+<div class="section" id="footer">
+   {% include sections/footer.md %}
+</div>

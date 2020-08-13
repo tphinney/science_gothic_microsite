@@ -31,7 +31,7 @@ window.sizeToWidth = function(el) {
 	for (var i = 0; i < 2; i++) {
 		textwidth = span.width();
 		if (textwidth && Math.abs(fullwidth-textwidth)/fullwidth > 0.01) {
-			div.css('font-size', Math.floor(Math.min($(window).height()/2, parseInt(div.css('font-size')) * fullwidth / textwidth)) + 'px');
+			div.css('font-size', Math.floor(Math.min($(window).height()/2, parseInt(div.css('font-size')) * fullwidth / textwidth) * 0.9) + 'px');
 		}
 	}
 

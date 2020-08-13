@@ -1,6 +1,5 @@
 <div class="intro_item" id="title">
-  <p id="science" class="size-to-width">Science</p>
-  <p id="gothic">Gothic</p>
+  <p>Science<br>Gothic</p>
 </div>
 
 <div class="intro_item" id="numerals">

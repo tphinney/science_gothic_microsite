@@ -14,9 +14,6 @@ $(document).ready(function() {
       }
     })();
 
-  var page_height = $(document).height() + 100;
-  $('body').css('height', page_height);
-
   var demo_height = $("#demo_weight").height();
   $(".demo").css({
     'line-height': demo_height + 'px'
@@ -39,9 +36,11 @@ $(document).ready(function() {
       $('#gothic').css('font-size', title_size);
     }, 250);
 
+/*
   setTimeout(function() {
       $('#title').css('animation', 'title_cycle 10s ease-out');
     }, 3000);
+*/
 
 // fraction cycle
   var delta = 750;

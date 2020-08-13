@@ -37,10 +37,9 @@ html {
 }
 
 body {
-  height: 100%;
   font-family: ScienceGothic;
-  background-image: linear-gradient(to bottom right, #01FFE4, #080A85);
-  -webkit-background-size: 100vw 100%;
+  background-image: url(../../images/background_gradient.png);
+  -webkit-background-size: cover;
   background-size: 100vw 100%;
 }
 
@@ -181,9 +180,6 @@ p {
 #title {
   grid-column: 4 / 10;
   grid-row: 3 / 7;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(2, 1fr);
   padding: calc(var(--margin) * 2);
   background: none;
   background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.1), rgba(1, 45, 73, 0.5));
@@ -193,8 +189,9 @@ p {
 #title p {
   position: relative;
   top: 2.5%;
-  line-height: 0.9;
+  line-height: 1.1;
   color: white;
+  font-size: 8.25vw;
 }
 
 #title:hover p {
@@ -1095,4 +1092,15 @@ p {
 #languages p .green {
   color: var(--green);
   opacity: 0.7;
+}
+
+/* FOOTER */
+#footer {
+  margin: 0 auto;
+}
+
+#footer p {
+  color: white;
+  margin: 0.5rem 0;
+  font-size: 0.8rem;
 }
