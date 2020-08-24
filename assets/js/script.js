@@ -133,10 +133,14 @@ $(document).ready(function() {
 // glyph table
   $("#glyphs .glyph_table div").hover(function(){
     var current_glyph = $(this).text();
-    $("#featured_glyph p").text(current_glyph);
     $(this).css('background', 'rgba(0,0,0,0.8)');
   }, function() {
     $(this).css('background', 'none');
+  });
+
+  $("#glyphs .glyph_table div").click(function(){
+    var current_glyph = $(this).text();
+    $("#featured_glyph p").text(current_glyph);
   });
 
   $(".glyph_tab#cyrillic").click(function(){

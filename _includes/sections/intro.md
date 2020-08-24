@@ -2,6 +2,13 @@
   <p>Science<br>Gothic</p>
 </div>
 
+<div class="intro_item" id="elements">
+  <p id="elements_1" class="size-to-width">zirconium</p>
+  <p id="elements_2" class="size-to-width">plutonium</p>
+  <p id="elements_3" class="size-to-width">neodymium</p>
+  <p id="elements_4" class="size-to-width">technetium</p>
+</div>
+
 <div class="intro_item" id="numerals">
   <p id="one">1</p>
   <p id="two">2</p>
@@ -67,6 +74,10 @@
   <p class="size-to-width">дзюба</p>
 </div>
 
+<div class="intro_item" id="turkish">
+  <p class="size-to-width">çıpa</p>
+</div>
+
 <div class="intro_item" id="danish">
   <p class="size-to-width">BLÅGRØNALGE</p>
 </div>
@@ -81,15 +92,4 @@
 
 <div class="intro_item" id="cyrillic_zhe">
   <p class="size-to-width">Ӂ</p>
-</div>
-
-<div class="intro_item" id="turkish">
-  <p class="size-to-width">çıpa</p>
-</div>
-
-<div class="intro_item" id="elements">
-  <p id="elements_1" class="size-to-width">zirconium</p>
-  <p id="elements_2" class="size-to-width">plutonium</p>
-  <p id="elements_3" class="size-to-width">neodymium</p>
-  <p id="elements_4" class="size-to-width">technetium</p>
 </div>

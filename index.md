@@ -45,6 +45,12 @@ layout: default
  </div>
 </div>
 
+<div class="section" id="download_section">
+  <div class="grid_container">
+   {% include sections/download.md %}
+ </div>
+</div>
+
 <div class="section" id="footer">
-   {% include sections/footer.md %}
+    {% include sections/footer.md %}
 </div>

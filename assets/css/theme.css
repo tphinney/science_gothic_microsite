@@ -204,7 +204,6 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  /*animation: scale_in 3s;*/
 }
 
 #numerals p {
@@ -703,7 +702,6 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
-  /*animation: scale_in 7s;*/
 }
 
 #elements p {
@@ -982,7 +980,7 @@ p {
   color: white;
   background: none;
   border: none;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 1.15;
   white-space: normal;
 }
@@ -1094,13 +1092,224 @@ p {
   opacity: 0.7;
 }
 
+/* DOWNLOAD */
+#download_section .grid_container {
+  min-height: 0;
+  height: 50vh;
+}
+
+#github_download, #google_download {
+  background: none;
+  color: var(--green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--margin);
+  transition: background 0.5s;
+}
+
+#github_download p, #google_download p {
+  font-size: 4vw;
+  font-variation-settings: 'wght' 400, 'wdth' 122, 'slnt' 0;
+  transition: all 0.5s;
+  line-height: 1.15;
+}
+
+#github_download:hover p/*, #google_download:hover p*/ {
+  color: white;
+  font-variation-settings: 'wght' 700, 'wdth' 100, 'slnt' -4;
+  transition: all 0.5s;
+}
+
+#github_download {
+  grid-column: 1 / 7;
+  grid-row: 1 / 10;
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(1, 45, 73, 0.5));
+}
+
+#google_download {
+  grid-column: 7 / 13;
+  grid-row: 1 / 10;
+  background-image: linear-gradient(to bottom right, rgba(0, 255, 0, 0.15), rgba(0, 0, 0, 0.1), rgba(1, 100, 73, 0.5));
+  opacity: 0.25;
+}
+
 /* FOOTER */
 #footer {
   margin: 0 auto;
+  display: grid;
 }
 
 #footer p {
   color: white;
   margin: 0.5rem 0;
   font-size: 0.8rem;
+  font-variation-settings: 'wdth' 90, 'wght' 350;
+}
+
+#footer a {
+  color: white;
+  transition: color 0.3s;
+}
+
+#footer a:hover {
+  color: var(--green);
+  transition: color 0.3s;
+}
+
+#footer #google {
+  width: 150px;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 710px) {
+  .section {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .grid_container {
+    width: 100%;
+    min-height: 0;
+    display: block;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .intro_item, #numerals, #currency {
+    display: none;
+    margin-bottom: var(--margin);
+  }
+
+  #title, #elements, #spanish, #belarusian, #danish, #russian, #turkish {
+    display: block;
+  }
+
+  #title p {
+    font-size: calc(100vw / 7);
+  }
+
+  #elements p {
+    line-height: 1.2;
+  }
+
+  #spanish p {
+    padding-top: 0.5rem;
+  }
+
+  #danish p {
+    padding-top: 0.5rem;
+  }
+
+  #intro_about {
+    text-align: left;
+    display: block;
+    height: auto;
+    margin-top: var(--margin);
+  }
+
+  #intro_about #intro_about_text {
+    padding: 0.5rem var(--margin);
+  }
+
+  #intro_about #intro_about_text p {
+    font-size: 1rem;
+    line-height: 1.25;
+    margin: 0.5rem auto;
+  }
+
+  #intro_about .demo {
+    display: none;
+  }
+
+  #text_input {
+    display: block;
+    margin-bottom: var(--margin);
+  }
+
+  #text_input textarea {
+    padding-top: var(--margin);
+    height: 50vh;
+    font-size: 40px;
+  }
+
+  #sliders {
+    display: block;
+    margin-bottom: var(--margin);
+  }
+
+  #featured_glyph {
+    display: block;
+    margin-bottom: var(--margin);
+  }
+
+  #glyphs {
+    display: block;
+  }
+
+  #glyphs div {
+    background: none;
+    padding: 0;
+    vertical-align: top;
+  }
+
+  #glyphs #glyph_tab_bar {
+    width: 100%;
+    height: auto;
+    border-bottom: 0.5px solid var(--green);
+  }
+
+  #glyphs .glyph_tab {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: calc((var(--margin) * 2 - 0.8rem) / 2);
+  }
+
+  #glyphs .glyph_tab#etc_chars {
+    width: auto;
+  }
+
+  #glyphs .glyph_table {
+    display: block;
+    position: relative;
+    top: -1px;
+    width: 100%;
+    margin-bottom: var(--margin);
+  }
+
+  #glyphs .glyph_table div {
+    display: inline-block;
+    min-width: 1.5rem;
+    width: calc(100% / 10);
+    font-size: 1rem;
+    text-align: center;
+    border: 0.5px solid var(--green);
+    font-variation-settings: 'wght' 350;
+    cursor: pointer;
+  }
+
+  #download_section .grid_container {
+    min-height: 0;
+    height: auto;
+  }
+
+  #github_download, #google_download {
+    display: block;
+    margin-bottom: var(--margin);
+  }
+
+  #github_download p, #google_download p {
+    font-size: 8vw;
+  }
+
+  #footer p {
+    color: white;
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+
 }
