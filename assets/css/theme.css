@@ -1163,7 +1163,7 @@ p {
   margin-top: 2rem;
 }
 
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 1000px) {
   .section {
     margin-bottom: 0;
     padding-bottom: 0;
@@ -1303,6 +1303,10 @@ p {
 
   #github_download p, #google_download p {
     font-size: 8vw;
+  }
+
+  #footer {
+    margin-bottom: var(--margin);
   }
 
   #footer p {
