@@ -1,5 +1,5 @@
-<a id="github_download" href="https://github.com/tphinney/science-gothic">
-  <p>Download on<br>Github</p>
+<a id="github_download" href="https://github.com/googlefonts/science-gothic">
+  <p>Download from<br>Github</p>
 </a>
 
 
