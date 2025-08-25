@@ -1,6 +1,6 @@
 @font-face {
   font-family: ScienceGothic;
-  src: url(../fonts/ScienceGothic%5BYOPQ%2Cslnt%2Cwdth%2Cwght%5D.ttf);
+  src: url(../fonts/ScienceGothic%5BCTRS%2Cslnt%2Cwdth%2Cwght%5D.ttf);
 }
 
 .SG_smallcaps {
@@ -155,26 +155,26 @@ p {
 }
 
 @keyframes title_cycle {
-  0% { font-variation-settings: 'wdth' 100, 'wght' 400, 'YOPQ' 122, 'slnt' 0; }
-  10% { font-variation-settings: 'wdth' 50, 'wght' 400, 'YOPQ' 122, 'slnt' 0; }
-  12% { font-variation-settings: 'wdth' 50, 'wght' 400, 'YOPQ' 122, 'slnt' 0; }
-  20% { font-variation-settings: 'wdth' 60, 'wght' 100, 'YOPQ' 122, 'slnt' 0; }
-  22% { font-variation-settings: 'wdth' 60, 'wght' 100, 'YOPQ' 122, 'slnt' 0; }
-  30% { font-variation-settings: 'wdth' 60, 'wght' 100, 'YOPQ' 122, 'slnt' -10; }
-  32% { font-variation-settings: 'wdth' 60, 'wght' 100, 'YOPQ' 122, 'slnt' -10; }
-  40% { font-variation-settings: 'wdth' 60, 'wght' 600, 'YOPQ' 122, 'slnt' -10; }
-  42% { font-variation-settings: 'wdth' 60, 'wght' 600, 'YOPQ' 122, 'slnt' -10; }
-  50% { font-variation-settings: 'wdth' 60, 'wght' 600, 'YOPQ' 18, 'slnt' 0; }
-  52% { font-variation-settings: 'wdth' 60, 'wght' 600, 'YOPQ' 18, 'slnt' 0; }
-  60% { font-variation-settings: 'wdth' 100, 'wght' 600, 'YOPQ' 18, 'slnt' 0; }
-  62% { font-variation-settings: 'wdth' 100, 'wght' 600, 'YOPQ' 18, 'slnt' 0; }
-  70% { font-variation-settings: 'wdth' 100, 'wght' 600, 'YOPQ' 122, 'slnt' -10; }
-  72% { font-variation-settings: 'wdth' 100, 'wght' 600, 'YOPQ' 122, 'slnt' -10; }
-  80% { font-variation-settings: 'wdth' 100, 'wght' 100, 'YOPQ' 122, 'slnt' -10; }
-  82% { font-variation-settings: 'wdth' 100, 'wght' 100, 'YOPQ' 122, 'slnt' -10; }
-  90% { font-variation-settings: 'wdth' 90, 'wght' 800, 'YOPQ' 122, 'slnt' 0; }
-  92% { font-variation-settings: 'wdth' 90, 'wght' 800, 'YOPQ' 122, 'slnt' 0; }
-  100% { font-variation-settings: 'wdth' 100, 'wght' 400, 'YOPQ' 122, 'slnt' 0; }
+  0% { font-variation-settings: 'wdth' 100, 'wght' 400, 'CTRS' 0, 'slnt' 0; }
+  10% { font-variation-settings: 'wdth' 50, 'wght' 400, 'CTRS' 0, 'slnt' 0; }
+  12% { font-variation-settings: 'wdth' 50, 'wght' 400, 'CTRS' 0, 'slnt' 0; }
+  20% { font-variation-settings: 'wdth' 60, 'wght' 100, 'CTRS' 0, 'slnt' 0; }
+  22% { font-variation-settings: 'wdth' 60, 'wght' 100, 'CTRS' 0, 'slnt' 0; }
+  30% { font-variation-settings: 'wdth' 60, 'wght' 100, 'CTRS' 0, 'slnt' -10; }
+  32% { font-variation-settings: 'wdth' 60, 'wght' 100, 'CTRS' 0, 'slnt' -10; }
+  40% { font-variation-settings: 'wdth' 60, 'wght' 600, 'CTRS' 0, 'slnt' -10; }
+  42% { font-variation-settings: 'wdth' 60, 'wght' 600, 'CTRS' 0, 'slnt' -10; }
+  50% { font-variation-settings: 'wdth' 60, 'wght' 600, 'CTRS' 75, 'slnt' 0; }
+  52% { font-variation-settings: 'wdth' 60, 'wght' 600, 'CTRS' 75, 'slnt' 0; }
+  60% { font-variation-settings: 'wdth' 100, 'wght' 600, 'CTRS' 75, 'slnt' 0; }
+  62% { font-variation-settings: 'wdth' 100, 'wght' 600, 'CTRS' 75, 'slnt' 0; }
+  70% { font-variation-settings: 'wdth' 100, 'wght' 600, 'CTRS' 0, 'slnt' -10; }
+  72% { font-variation-settings: 'wdth' 100, 'wght' 600, 'CTRS' 0, 'slnt' -10; }
+  80% { font-variation-settings: 'wdth' 100, 'wght' 100, 'CTRS' 0, 'slnt' -10; }
+  82% { font-variation-settings: 'wdth' 100, 'wght' 100, 'CTRS' 0, 'slnt' -10; }
+  90% { font-variation-settings: 'wdth' 90, 'wght' 800, 'CTRS' 0, 'slnt' 0; }
+  92% { font-variation-settings: 'wdth' 90, 'wght' 800, 'CTRS' 0, 'slnt' 0; }
+  100% { font-variation-settings: 'wdth' 100, 'wght' 400, 'CTRS' 0, 'slnt' 0; }
 }
 
 #title {
@@ -470,12 +470,12 @@ p {
 }
 
 #at_sign p {
-  font-variation-settings: 'wght' 900, 'YOPQ' 18, 'slnt' -10;
+  font-variation-settings: 'wght' 900, 'CTRS' 75, 'slnt' -10;
   transition: font-variation-settings 0.5s;
 }
 
 #at_sign:hover p {
-  font-variation-settings: 'wght' 400, 'YOPQ' 122, 'slnt' 0;
+  font-variation-settings: 'wght' 400, 'CTRS' 0, 'slnt' 0;
   transition: font-variation-settings 0.75s;
 }
 
@@ -547,12 +547,12 @@ p {
 #belarusian p {
   position: relative;
   top: 2.5%;
-  font-variation-settings: 'wdth' 200, 'wght' 800, 'YOPQ' 30, 'slnt' -10;
+  font-variation-settings: 'wdth' 200, 'wght' 800, 'CTRS' 66, 'slnt' -10;
   transition: font-variation-settings 0.5s;
 }
 
 #belarusian:hover p {
-  font-variation-settings: 'wdth' 200, 'wght' 500, 'YOPQ' 122, 'slnt' 0;
+  font-variation-settings: 'wdth' 200, 'wght' 500, 'CTRS' 0, 'slnt' 0;
   transition: font-variation-settings 0.75s;
 }
 
@@ -563,12 +563,12 @@ p {
 }
 
 #russian p {
-  font-variation-settings: 'YOPQ' 122, 'slnt' -10;
+  font-variation-settings: 'CTRS' 0, 'slnt' -10;
   transition: font-variation-settings 0.6s;
 }
 
 #russian:hover p {
-  font-variation-settings: 'YOPQ' 18, 'slnt' 0;
+  font-variation-settings: 'CTRS' 75, 'slnt' 0;
   transition: font-variation-settings 1s;
 }
 
@@ -599,12 +599,12 @@ p {
 #danish p {
   position: relative;
   top: 5%;
-  font-variation-settings: 'wdth' 60, 'wght' 250, 'YOPQ' 18, 'slnt' 0;
+  font-variation-settings: 'wdth' 60, 'wght' 250, 'CTRS' 75, 'slnt' 0;
   transition: font-variation-settings 0.5s;
 }
 
 #danish:hover p {
-  font-variation-settings: 'wdth' 60, 'wght' 100, 'YOPQ' 122, 'slnt' -10;
+  font-variation-settings: 'wdth' 60, 'wght' 100, 'CTRS' 0, 'slnt' -10;
   transition: font-variation-settings 1s;
 }
 
@@ -617,12 +617,12 @@ p {
 #german p {
   position: relative;
   top: 5%;
-  font-variation-settings: 'wdth' 110, 'wght' 600, 'YOPQ' 80;
+  font-variation-settings: 'wdth' 110, 'wght' 600, 'CTRS' 30;
   transition: font-variation-settings 0.5s;
 }
 
 #german:hover p {
-  font-variation-settings: 'wdth' 130, 'wght' 175, 'YOPQ' 122;
+  font-variation-settings: 'wdth' 130, 'wght' 175, 'CTRS' 0;
   transition: font-variation-settings 1s;
 }
 
@@ -687,12 +687,12 @@ p {
 #vietnamese p {
   position: relative;
   top: 2.5%;
-  font-variation-settings: 'wdth' 60, 'wght' 700, 'YOPQ' 30;
+  font-variation-settings: 'wdth' 60, 'wght' 700, 'CTRS' 66;
   transition: font-variation-settings 0.5s;
 }
 
 #vietnamese:hover p {
-  font-variation-settings: 'wdth' 72, 'wght' 600, 'YOPQ' 122;
+  font-variation-settings: 'wdth' 72, 'wght' 600, 'CTRS' 0;
   transition: font-variation-settings 0.75s;
 }
 
@@ -833,17 +833,17 @@ p {
 }
 
 #intro_about #demo_contrast p {
-  font-variation-settings: 'wght' 500, 'YOPQ' 18;
+  font-variation-settings: 'wght' 500, 'CTRS' 75;
   color: white;
 }
 
 #intro_about #demo_contrast_overlay_01 p {
-  font-variation-settings: 'wght' 500, 'YOPQ' 122;
+  font-variation-settings: 'wght' 500, 'CTRS' 0;
   opacity: 0.2;
 }
 
 #intro_about #demo_contrast_overlay_02 p {
-  font-variation-settings: 'wght' 500, 'YOPQ' 70;
+  font-variation-settings: 'wght' 500, 'CTRS' 37;
   opacity: 0.4;
 }
 
