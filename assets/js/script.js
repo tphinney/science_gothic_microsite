@@ -96,9 +96,9 @@ $(document).ready(function() {
   $('#slider_weight, #slider_width, #slider_contrast, #slider_slant').on('input',function(){
     var wght_val = $('#slider_weight').val();
     var wdth_val = $('#slider_width').val();
-    var yopq_val = $('#slider_contrast').val();
+    var ctrs_val = $('#slider_contrast').val();
     var slnt_val = $('#slider_slant').val();
-    $('#text_input textarea').css('font-variation-settings', "'wght' " + wght_val + ", 'wdth' " + wdth_val + ", 'YOPQ' " + yopq_val + ", 'slnt' " + slnt_val);
+    $('#text_input textarea').css('font-variation-settings', "'wght' " + wght_val + ", 'wdth' " + wdth_val + ", 'CTRS' " + ctrs_val + ", 'slnt' " + slnt_val);
     var current_val = $(this).val();
     if ($(this).attr('id') == 'slider_weight') {
       $(".slider_weight_val").text(current_val);
