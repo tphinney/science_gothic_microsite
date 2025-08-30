@@ -12,7 +12,7 @@
     <li>WIDTH</li> <span class="slider_width_val">100</span>
       <input id="slider_width" type="range" min="50" max="200" value="100" step="1">
     <li>CONTRAST</li> <span class="slider_contrast_val">0</span>
-      <input id="slider_contrast" type="range" min="75" max="0" value="0" step="1">
+      <input id="slider_contrast" type="range" min="0" max="75" value="0" step="1">
     <li>SLANT</li> <span class="slider_slant_val">0</span>
       <input id="slider_slant" type="range" min="-10" max="0" value="0" step="0.5">
     <li>SIZE</li> <span class="slider_size_val">40px</span>
