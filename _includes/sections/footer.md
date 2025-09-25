@@ -1,7 +1,7 @@
 <div class="colophon">
-  <p><strong>Science Gothic</strong> is a typeface by Thomas Phinney, Brandon Buerkle, and Vassil Kateliev, with some initial glyphs by Igor Freiberger. The regular weight and some of the weight design cues are adapted from Morris Fuller Benton’s Bank Gothic for ATF (1930–33).
+  <p><strong>Science Gothic</strong> is a typeface by Thomas Phinney,  Vassil Kateliev, and Brandon Buerkle, with some early help from Igor Freiberger. The regular weight and some of the weight design cues are adapted from Morris Fuller Benton’s Bank Gothic for ATF (1930–33).
   <p>Microsite design by <a href="https://vannavu.com/">Vanna Vu</a>.</p>
-  <p>Thank you to Igor Freiberger, Dave Crossland, Laurence Penney, David Berlow, and especially to Google Fonts for sponsoring the design.</p>
+  <p>Thank you to Dave Crossland, Laurence Penney, David Berlow, and especially to Google Fonts for sponsoring the design.</p>
   <p><a href="https://github.com/googlefonts/science-gothic/issues">File a bug or make a request</a></p>
   <p><a href="https://github.com/googlefonts/science-gothic">View the source files</a></p>
   <div id="google">
