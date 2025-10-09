@@ -1098,7 +1098,7 @@ p {
   height: 50vh;
 }
 
-##google_download, github_download {
+#google_download, github_download {
   background: none;
   color: var(--green);
   display: flex;
