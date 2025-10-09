@@ -1125,8 +1125,7 @@ p {
 #google_download {
   grid-column: 1 / 7;
   grid-row: 1 / 10;
-  background-image: linear-gradient(to bottom right, rgba(0, 255, 0, 0.15), rgba(0, 0, 0, 0.1), rgba(1, 100, 73, 0.5));
-  opacity: 0.25;
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(1, 45, 73, 0.5));
 }
 
 #github_download {
