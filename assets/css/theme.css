@@ -1098,7 +1098,7 @@ p {
   height: 50vh;
 }
 
-#github_download, #google_download {
+##google_download, github_download {
   background: none;
   color: var(--green);
   display: flex;
@@ -1109,30 +1109,30 @@ p {
   transition: background 0.5s;
 }
 
-#github_download p, #google_download p {
+#google_download p, github_download p {
   font-size: 4vw;
   font-variation-settings: 'wght' 400, 'wdth' 122, 'slnt' 0;
   transition: all 0.5s;
   line-height: 1.15;
 }
 
-#github_download:hover p/*, #google_download:hover p*/ {
+#github_download:hover p/*, google_download:hover p*/ {
   color: white;
   font-variation-settings: 'wght' 700, 'wdth' 100, 'slnt' -4;
   transition: all 0.5s;
 }
 
-#github_download {
-  grid-column: 1 / 7;
-  grid-row: 1 / 10;
-  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(1, 45, 73, 0.5));
-}
-
 #google_download {
-  grid-column: 7 / 13;
+  grid-column: 1 / 7;
   grid-row: 1 / 10;
   background-image: linear-gradient(to bottom right, rgba(0, 255, 0, 0.15), rgba(0, 0, 0, 0.1), rgba(1, 100, 73, 0.5));
   opacity: 0.25;
+}
+
+#github_download {
+  grid-column: 7 / 13;
+  grid-row: 1 / 10;
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(1, 45, 73, 0.5));
 }
 
 /* FOOTER */
