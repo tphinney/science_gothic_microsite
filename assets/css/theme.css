@@ -5,8 +5,8 @@
 
 .SG_smallcaps {
   font-family: ScienceGothic;
-  font-size: 0.8em;
-  letter-spacing: 0.1em;
+  font-feature-settings: "c2sc"
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
