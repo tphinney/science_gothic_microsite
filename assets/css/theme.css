@@ -1116,7 +1116,13 @@ p {
   line-height: 1.15;
 }
 
-#github_download:hover p/*, google_download:hover p/* {
+#github_download:hover p {
+  color: white;
+  font-variation-settings: 'wght' 700, 'wdth' 100, 'slnt' -4;
+  transition: all 0.8s;
+}
+
+#google_download:hover:hover p {
   color: white;
   font-variation-settings: 'wght' 700, 'wdth' 100, 'slnt' -4;
   transition: all 0.8s;
