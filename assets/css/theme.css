@@ -1098,7 +1098,7 @@ p {
   height: 50vh;
 }
 
-#google_download, github_download {
+#google_download, #github_download {
   background: none;
   color: var(--green);
   display: flex;
@@ -1109,7 +1109,7 @@ p {
   transition: background 0.8s;
 }
 
-#google_download p, github_download p {
+#google_download p, #github_download p {
   font-size: 4vw;
   font-variation-settings: 'wght' 400, 'wdth' 122, 'slnt' 0;
   transition: all 0.8s;
@@ -1122,7 +1122,7 @@ p {
   transition: all 0.8s;
 }
 
-#google_download:hover:hover p {
+#google_download:hover p {
   color: white;
   font-variation-settings: 'wght' 700, 'wdth' 100, 'slnt' -4;
   transition: all 0.8s;
