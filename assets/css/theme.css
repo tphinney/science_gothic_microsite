@@ -1106,20 +1106,20 @@ p {
   justify-content: center;
   text-align: center;
   padding: var(--margin);
-  transition: background 0.5s;
+  transition: background 0.8s;
 }
 
 #google_download p, github_download p {
   font-size: 4vw;
   font-variation-settings: 'wght' 400, 'wdth' 122, 'slnt' 0;
-  transition: all 0.5s;
+  transition: all 0.8s;
   line-height: 1.15;
 }
 
-#github_download:hover p/*, google_download:hover p*/ {
+#github_download:hover p/*, google_download:hover p/* {
   color: white;
   font-variation-settings: 'wght' 700, 'wdth' 100, 'slnt' -4;
-  transition: all 0.5s;
+  transition: all 0.8s;
 }
 
 #google_download {
