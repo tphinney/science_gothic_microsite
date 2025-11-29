@@ -1,5 +1,5 @@
 <a id="google_download" href="https://fonts.google.com/specimen/Science+Gothic/tester">
-  <p>Coming soon to<br>Google Fonts</p>
+  <p>Available from <br>Google Fonts</p>
 </a>
 
 
